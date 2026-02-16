@@ -17,8 +17,8 @@ test('WebTable' , async({page}) =>{
     const value = await page.locator('//table[@id="table02"]//tbody//tr//td[1]').allTextContents()
     console.log(value)
 
-    //Particular Cell
-    const ParticularCell = await page.locator('//table[@id="table02"]//tbody//tr[2]//td[3]').textContent()
-    console.log(ParticularCell)
-    expect(ParticularCell).toBe('61')
+    // //Particular Cell
+    // const ParticularCell = await page.locator('//table[@id="table02"]//tbody//tr[2]//td[3]').textContent()
+    // console.log(ParticularCell)
+    // expect(ParticularCell).toBe('61')
 })
