@@ -23,8 +23,6 @@ const response=await request.post('https://restful-booker.herokuapp.com/booking'
         data:postData
     }
 )
-
-
 const body=await response.json()
 B_id=body.bookingid
 console.log(body)
