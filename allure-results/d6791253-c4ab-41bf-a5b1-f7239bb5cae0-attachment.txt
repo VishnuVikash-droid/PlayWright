@@ -1,0 +1,4 @@
+Js Alert: I am a JS Alert
+Js Confirm: I am a JS Confirm
+Js Prompt: I am a JS prompt
+You entered: vishnu
