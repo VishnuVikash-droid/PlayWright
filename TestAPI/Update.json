@@ -1,0 +1,11 @@
+{
+    "firstname": "Vishnu",
+    "lastname": "Developer",
+    "totalprice": 123,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2026-01-01"
+    },
+    "additionalneeds": "superb owls"
+}

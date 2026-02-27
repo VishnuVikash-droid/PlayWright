@@ -10,6 +10,7 @@ let B_id="";
 // const body=await response.json()
 // console.log(body)
 // })
+
 test.describe.serial('API',async()=>{
 // test('Get Booking id Details',async({request})=>{
 // const response=await request.get(`https://restful-booker.herokuapp.com/booking/${B_id}`)
@@ -34,11 +35,11 @@ test('Create Token',async({request})=>{
             data:token
         }
     )
-    const statuscode=await response.status()
-   const body=await response.json()
-   barierToken=await body.token;
-   console.log(body)
-   console.log(statuscode)
+const statuscode=await response.status()
+const body=await response.json()
+barierToken=await body.token;
+console.log(body)
+console.log(statuscode)
 })
 
 test('Update api',async({request})=>{
